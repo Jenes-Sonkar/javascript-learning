@@ -80,3 +80,12 @@ console.log(instructor);
     {}
 ]
 
+const cours = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "Jenes"
+}
+
+
+const { coursename:name} = cours // this is called destructuring. It allows us to extract values from objects and assign them to variables. The syntax is { propertyName: variableName } = object. In this case, we are extracting the value of the property "coursename" from the object "cours" and assigning it to a new variable called "name". The original variable "coursename" will not be created in this case, only the new variable "name" will be created and assigned the value of "js in hindi".
+console.log(name); 
